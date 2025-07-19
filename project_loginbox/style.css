@@ -1,0 +1,88 @@
+*{
+    margin:0px;
+    padding:0px
+}
+body{
+    background-image: url(1.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+    /* filter: opacity(2px); */
+    filter: contrast(150%);
+    /* filter: brightness(150%); */
+}
+.loginbox{
+    width:320px;
+    height: 390px;
+    background: radial-gradient(rgba(255,255,255,0));
+    box-shadow: 5px 10px 20px rgba(0,0,0,0.6);
+    backdrop-filter: blur(3px);
+    border-radius: 20px;
+}
+img{
+    width:120px;
+    height: 120px;
+    margin-left:31%;
+    margin-top: -65px;
+}
+h2{
+    margin-top: 2px;
+    margin-left: 37%;
+    font-size: 22px;
+    cursor: pointer;
+}
+h3,input{
+    margin-left: 30px;
+}
+h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+input{
+    width:80%;
+    height:20px;
+    outline:none;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    background: transparent;
+    border-bottom: solid white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-family: cursive;
+    margin-bottom: 30px;
+}
+input:hover{
+    border-bottom: dotted black;
+    transition: 0.2s ease;
+}
+::placeholder{
+    color:black;
+}
+i{
+    color:#fff;
+    margin-left: -20px;
+}
+button{
+    font-size: 18px;
+    padding:6px 16px;
+    margin-top: 20px;
+    border-radius: 5px;
+    outline:none;
+    border:none;
+    color:#fff;
+    background: #000;
+    margin-left: 35%;
+    cursor:pointer;
+}
+button:hover{
+    color:#000;
+    background-color: #fff;
+    transition: 0.2s ease;
+}
