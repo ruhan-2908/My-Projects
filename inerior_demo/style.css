@@ -1,0 +1,98 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.banner{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(ms-cozy-living-room-ideas-heidi-harris-d20b6776355843cea943bafdd6a94f44.jpg);
+    height: 100vh;
+    width:100%;
+    background-position: center;
+    background-size: cover;
+}
+.navbar{
+    width:80%;
+    /* background-color: blueviolet; */
+    margin:auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar h2{
+    width:120px;
+    cursor:pointer;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin:0 20px;
+    cursor: pointer;
+    color:white;
+    position: relative;
+    font-size: 20px;
+    font-weight: 600;
+}
+.navbar ul li::after{
+    content: '';
+    height:3px;
+    width:0%;
+    background: #009688;
+    position: absolute;
+    left:0;
+    bottom:-10px;
+}
+.navbar ul li:hover::after{
+    width:100%;
+    transition: 0.3s ease;
+}
+.content{
+    width:100%;
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color:#fff;
+}
+.content h1{
+    font-size: 70px;
+    margin-top: 80px;
+}
+.content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+button{
+    width:200px;
+    padding:15px 0;
+    text-align: center;
+    margin:20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border:2px solid #009688;
+    background: transparent;
+    cursor:pointer;
+    color:white;
+    position: relative;
+    /* overflow:hidden; */
+}
+span{
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    background-color: #009688;
+    border-radius: 25px;
+    left:0;
+    bottom:0;
+    z-index:-1;
+}
+button:hover span{
+    /* height: 100%L; */
+    width: 100%;
+    transition: 0.3s ease;
+}
+button:hover{
+    border: none;
+}
