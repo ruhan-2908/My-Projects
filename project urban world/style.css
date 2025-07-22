@@ -1,0 +1,116 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.container{
+    /* background-color: blueviolet; */
+    /* opacity: 0.6; */
+    height:100vh;
+    width:100%;
+    background-image: url(background\ -\ Copy.png);
+    background-position: center;
+    background-size: cover;
+    padding :0px 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+.navbar{
+    width:100%;
+    height:15vh;
+    margin:auto;
+    display:flex;
+    align-items: center;
+    /* justify-content: ; */
+}
+.logo{
+    width:160px;
+    cursor:pointer;
+    /* border:5px solid rgb(237, 148, 195);
+    padding: 20px; */
+}
+.cart{
+    width:40px;
+    cursor:pointer;
+    /* position: absolute;
+    right:0px; */
+    
+}
+.navsec{
+    flex:1;
+    padding-left: 60px;
+}
+.navsec ul li{
+    display: inline-block;
+    list-style: none;
+    margin:0px 20px;
+    cursor: pointer;
+    position: relative;
+}
+.navsec ul li::after{
+    content: '';
+    left:0;
+    bottom:-7px;
+    position:absolute;
+    background-color: rgb(237, 148, 195);
+    height: 3px;
+    width:0%;
+}
+.navsec ul li:hover::after{
+    width:100%;
+    transition: 0.3s ease;
+}
+.content h1{
+    font-size: 50px;
+    font-weight: 100;
+    margin-top:24px;
+    margin-bottom: 15px;
+    color:#232d60;
+
+}
+.content p{
+    font-size: 20px;
+    color:#6a7199;
+
+}
+.content{
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.content .btn{
+    display: inline-block;
+    background: linear-gradient(45deg,#87adfe,#ff77cd);
+    border-radius: 8px;
+    padding:10px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color:#fff;
+    box-shadow: 3px 8px 22px rgba(94,28,68,0.15);
+
+}
+.arrow-icons{
+    margin-top: 40px;
+    display: flex;
+}
+.arrow-icons img{
+    width: 40px;
+    margin-right: 25px;
+}
+.featureimg{
+    height: 90%;
+    position: absolute;
+    bottom:0px;
+    right:160px;
+
+}
+.sociallinkes{
+    transform: rotate(-90deg);
+    position: absolute;
+    left:-80px;
+    bottom:180px;
+}
+.sociallinkes a{
+    text-decoration: none;
+    color:#6a7199;
+    padding-right: 20px;
+    font-size: 14px;
+}
