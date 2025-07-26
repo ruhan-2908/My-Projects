@@ -1,0 +1,137 @@
+@font-face {
+    font-family: outfit;
+    src: url(./assets/fonts/Outfit-VariableFont_wght.ttf);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    background-color: hsl(217, 54%, 13%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.back1 {
+    height: 580px;
+    width: 350px;
+    padding: 20px;
+    background-color: hsl(217, 54%, 12.7%);
+    border-radius: 10px;
+}
+
+.back2 {
+    height: 547px;
+    width: 310px;
+    border-radius: 10px;
+    background-color: hsl(220, 55%, 10%);
+}
+
+.semi {
+    height: 530px;
+    width: 300px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+    text-align: left;
+}
+
+.semi img {
+    height: 50%;
+    width: 90%;
+    margin: 15px;
+    border-radius: 4px;
+}
+
+.semi h2 {
+    margin-left: 15px;
+    font-family: outfit;
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+}
+
+.semi p {
+    margin-left: 15px;
+    margin-top: 13px;
+    font-family: outfit;
+    color: hsl(215, 32%, 70%);
+}
+
+.semisemi {
+    display: flex;
+    align-items: center;
+    margin-left: 1px;
+    margin-top: 5px;
+    margin-right: 20px;
+}
+
+
+#no1 {
+    height: 16px;
+    width: 10px;
+    margin-right: 5px;
+
+}
+
+.semisemi h3 {
+    font-family: outfit;
+    color: hsl(178, 100%, 50%);
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+
+}
+
+#no2 {
+    height: 16px;
+    width: 15px;
+    margin-left: auto;
+    margin-right: 2px;
+
+}
+
+.semisemi h4 {
+    font-family: outfit;
+    color: hsl(215, 32%, 70%);
+    font-size: 14px;
+    margin: 6px;
+    padding: 0px;
+
+}
+
+.semi hr {
+    width: 85%;
+    margin: auto;
+    opacity: 0.1;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    margin: 4px 2px;
+
+}
+
+.footer img {
+    height: 35px;
+    width: 35px;
+    border: 1px solid rgb(220, 217, 217);
+    border-radius: 50%;
+}
+
+.footer p {
+    margin-right: auto;
+    margin-left: 0;
+    margin-top: 2px;
+}
+
+.footer span {
+    color: hsl(0, 0%, 100%)
+}
